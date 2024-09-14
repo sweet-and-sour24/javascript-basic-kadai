@@ -1,5 +1,5 @@
-const calculateResult = (power) => {
-  console.log(power ** 2);
+const calculateResult = (num) => {
+  return num ** 2;
 }
 
-calculateResult(10);
+console.log(calculateResult(10));
